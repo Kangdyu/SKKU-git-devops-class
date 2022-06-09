@@ -1,0 +1,30 @@
+{
+  "name": "skku-git-devops-class",
+  "version": "1.0.0",
+  "description": "skku-git-devops-class",
+  "main": "src/index.js",
+  "directories": {
+    "src": "src",
+    "test": "test"
+  },
+  "bin": {
+    "calc": "src/index.js"
+  },
+  "scripts": {
+    "test": "node test/test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kangdyu/SKKU-git-devops-class.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kangdyu/SKKU-git-devops-class/issues"
+  },
+  "homepage": "https://github.com/Kangdyu/SKKU-git-devops-class#readme",
+  "dependencies": {
+    "commander": "^9.3.0",
+    "g": "^2.0.1"
+  }
+}
