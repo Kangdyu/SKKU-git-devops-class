@@ -10,7 +10,7 @@
 
 1. `git clone https://github.com/Kangdyu/SKKU-git-devops-class.git`
 2. `cd SKKU-git-devops-class`
-3. `npm i g`
+3. `npm i -g`
 4. `calc -h`
 
 # Contributors
