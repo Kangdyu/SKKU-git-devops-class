@@ -4,10 +4,7 @@ const { add, div, mul, sub } = require("./math");
 
 const program = new Command();
 
-program
-  .name("calc")
-  .description("Simple calculator")
-  .version("1.0.0");
+program.name("calc").description("Simple calculator").version("1.0.0");
 
 program
   .command("add")
