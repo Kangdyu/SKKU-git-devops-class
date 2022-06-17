@@ -4,7 +4,7 @@
 
 # Description
 
-2022 SKKU 여름방학 SW 코칭 프로그램 - 간단한 CLI 계산기
+2022 SKKU 여름방학 SW 코칭 프로그램 - 간단한 CLI 계산기 + 가사 생성 쉘 스크립트 실습
 
 # Install Guide
 
