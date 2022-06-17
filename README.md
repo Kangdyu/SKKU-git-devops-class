@@ -4,7 +4,7 @@
 
 # Description
 
-성균관대학교 2022년 여름방학 SW 코칭 프로그램 - 간단한 CLI 계산기
+2022 SKKU 여름방학 SW 코칭 프로그램 - 간단한 CLI 계산기
 
 # Install Guide
 
