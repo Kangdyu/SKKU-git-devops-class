@@ -1,4 +1,4 @@
-const { add, sub, mul, div } = require('../src/math');
+const { add, sub, mul, div } = require('../archive/math');
 
 console.log(add(1, 2));
 console.log(sub(3, 2));

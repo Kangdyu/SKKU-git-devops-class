@@ -9,7 +9,7 @@
       content="Mark Otto, Jacob Thornton, and Bootstrap contributors"
     />
     <meta name="generator" content="Hugo 0.98.0" />
-    <title>Pricing example · Bootstrap v5.2</title>
+      <title><%= title %></title>
 
     <link
       rel="canonical"
@@ -119,7 +119,7 @@
           <nav class="d-inline-flex mt-2 mt-md-0 ms-md-auto">
             <a
               class="me-3 py-2 text-dark text-decoration-none"
-              href="./index.html"
+              href="/"
             >
               홈
             </a>
@@ -128,7 +128,7 @@
             </a>
             <a
               class="me-3 py-2 text-dark text-decoration-none"
-              href="./checkout.html"
+              href="/checkout"
             >
               쇼핑카트
             </a>
@@ -149,11 +149,11 @@
           <div class="col">
             <div class="card mb-4 rounded-3 shadow-sm">
               <div class="card-header py-3">
-                <h4 class="my-0 fw-normal">안드로메다 폰 13</h4>
+                <h4 class="my-0 fw-normal btn-name">안드로메다 폰 13</h4>
               </div>
               <div class="card-body">
                 <h1 class="card-title pricing-card-title">
-                  &#8361; 950,000 부터
+                  &#8361; <span class="btn-price">950,000</span> 부터
                 </h1>
                 <ul class="list-unstyled mt-3 mb-4">
                   <li>시에라 블루, 골드, 실버, 알파인 그린</li>
@@ -161,9 +161,8 @@
                   <li>동영상 재생: 22시간</li>
                 </ul>
                 <button
-                  id="btn-buy"
                   type="button"
-                  class="w-100 btn btn-lg btn-success"
+                  class="w-100 btn btn-lg btn-success btn-buy"
                 >
                   구매
                 </button>
@@ -173,11 +172,11 @@
           <div class="col">
             <div class="card mb-4 rounded-3 shadow-sm">
               <div class="card-header py-3">
-                <h4 class="my-0 fw-normal">안드로메다 폰 13 Pro</h4>
+                <h4 class="my-0 fw-normal btn-name">안드로메다 폰 13 Pro</h4>
               </div>
               <div class="card-body">
                 <h1 class="card-title pricing-card-title">
-                  &#8361; 1,350,000 부터
+                  &#8361; <span class="btn-price">1,350,000</span> 부터
                   <br />
                   <small class="text-muted fw-light">
                     (보상 판매* 미적용 가격)
@@ -189,9 +188,8 @@
                   <li>동영상 재생: 28시간</li>
                 </ul>
                 <button
-                  id="btn-buy"
                   type="button"
-                  class="w-100 btn btn-lg btn-danger"
+                  class="w-100 btn btn-lg btn-danger btn-buy"
                 >
                   구매
                 </button>

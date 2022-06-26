@@ -2,16 +2,12 @@
   "name": "skku-git-devops-class",
   "version": "1.0.0",
   "description": "skku-git-devops-class",
-  "main": "src/index.js",
   "directories": {
     "src": "src",
     "test": "test"
   },
-  "bin": {
-    "calc": "src/index.js"
-  },
   "scripts": {
-    "test": "node test/test"
+    "start": "node ./src/bin/www"
   },
   "repository": {
     "type": "git",
@@ -25,6 +21,11 @@
   "homepage": "https://github.com/Kangdyu/SKKU-git-devops-class#readme",
   "dependencies": {
     "commander": "^9.3.0",
-    "g": "^2.0.1"
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "ejs": "^3.1.8",
+    "express": "~4.16.1",
+    "g": "^2.0.1",
+    "morgan": "~1.9.1"
   }
 }
